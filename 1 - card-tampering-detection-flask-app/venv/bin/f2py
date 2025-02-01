@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/home/brian/Videos/Programming/Machine Learning/50-Days 50-Projects Data Science, Machine Learning Bootcamp/[TutsNode.com] - 50-Days 50-Projects - Data Science, Machine Learning Bootcamp/2. Project-1 Pan Card Tempering Detector App -Deploy On Heroku/8.2 Pan Card Tampering Flask App/Pan Card Tampering Flask App/venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from numpy.f2py.f2py2e import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
